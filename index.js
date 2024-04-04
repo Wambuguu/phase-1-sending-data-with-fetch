@@ -1,11 +1,11 @@
 // Add your code here
 function submitData(name, email) {
-  let formData = {
+  const formData = {
     name: name,
     email: email,
   };
 
-  let configObj = {
+  const configObj = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
